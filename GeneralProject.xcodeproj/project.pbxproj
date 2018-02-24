@@ -14,6 +14,8 @@
 		4C14C69D20415DFA000566E6 /* VC_Two.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C14C69C20415DFA000566E6 /* VC_Two.m */; };
 		4C14C6A020415E07000566E6 /* VC_Three.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C14C69F20415E07000566E6 /* VC_Three.m */; };
 		4C14C6A320415E12000566E6 /* VC_Four.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C14C6A220415E12000566E6 /* VC_Four.m */; };
+		4C14C6A720416B35000566E6 /* MT_Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C14C6A520416B34000566E6 /* MT_Config.plist */; };
+		4C14C6A820416B35000566E6 /* MT_Signature.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C14C6A620416B35000566E6 /* MT_Signature.plist */; };
 		4CEE1B4620410F5A00F96185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE1B4520410F5A00F96185 /* AppDelegate.m */; };
 		4CEE1B5120410F5A00F96185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE1B5020410F5A00F96185 /* Assets.xcassets */; };
 		4CEE1B7120412A2000F96185 /* SB_Two.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE1B6920412A2000F96185 /* SB_Two.storyboard */; };
@@ -42,6 +44,8 @@
 		4C14C69F20415E07000566E6 /* VC_Three.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC_Three.m; sourceTree = "<group>"; };
 		4C14C6A120415E12000566E6 /* VC_Four.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC_Four.h; sourceTree = "<group>"; };
 		4C14C6A220415E12000566E6 /* VC_Four.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC_Four.m; sourceTree = "<group>"; };
+		4C14C6A520416B34000566E6 /* MT_Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MT_Config.plist; sourceTree = "<group>"; };
+		4C14C6A620416B35000566E6 /* MT_Signature.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MT_Signature.plist; sourceTree = "<group>"; };
 		4CEE1B4120410F5A00F96185 /* GeneralProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneralProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEE1B4420410F5A00F96185 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CEE1B4520410F5A00F96185 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,6 +116,15 @@
 				4C14C6A220415E12000566E6 /* VC_Four.m */,
 			);
 			path = Four;
+			sourceTree = "<group>";
+		};
+		4C14C6A420416B18000566E6 /* MTConfig */ = {
+			isa = PBXGroup;
+			children = (
+				4C14C6A520416B34000566E6 /* MT_Config.plist */,
+				4C14C6A620416B35000566E6 /* MT_Signature.plist */,
+			);
+			path = MTConfig;
 			sourceTree = "<group>";
 		};
 		4CEE1B3820410F5A00F96185 = {
@@ -225,6 +238,7 @@
 		4CEE1B82204142D600F96185 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				4C14C6A420416B18000566E6 /* MTConfig */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -321,7 +335,9 @@
 				4C14C69720415CCE000566E6 /* SB_Login.storyboard in Resources */,
 				4CEE1B7320412A2000F96185 /* SB_Four.storyboard in Resources */,
 				4CEE1B7220412A2000F96185 /* SB_One.storyboard in Resources */,
+				4C14C6A720416B35000566E6 /* MT_Config.plist in Resources */,
 				4CEE1B7420412A2000F96185 /* SB_Three.storyboard in Resources */,
+				4C14C6A820416B35000566E6 /* MT_Signature.plist in Resources */,
 				4CEE1B7120412A2000F96185 /* SB_Two.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

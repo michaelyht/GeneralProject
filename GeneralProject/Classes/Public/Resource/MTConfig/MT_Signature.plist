@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SignatureKey</key>
+	<string>body_val</string>
+	<key>SignSaltStartIndex</key>
+	<string>14</string>
+	<key>SignSaltLength</key>
+	<string>11</string>
+	<key>SignLoginName</key>
+	<string>SignLoginName</string>
+	<key>SignLoginPwd</key>
+	<string>SignLoginPwd</string>
+</dict>
+</plist>

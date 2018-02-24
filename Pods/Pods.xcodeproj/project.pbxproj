@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -278,7 +278,7 @@
 /* Begin PBXFileReference section */
 		01E9419A0A596843F278F97AB60DBB0A /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		02696D8D7AC770DE3E6F7257E2073214 /* Pods-GeneralProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeneralProject-resources.sh"; sourceTree = "<group>"; };
-		0292469AE4E972508D462BDEFC640A30 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0292469AE4E972508D462BDEFC640A30 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03435538DC44DDE406E01B3F232270D4 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		042A3A1EAE07E2817C37D17E2D7941E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		058F91E30673496BAC3818022CE9C134 /* MT_CategoryHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MT_CategoryHeader.h; path = MTKit/MTKit/Category/MT_CategoryHeader.h; sourceTree = "<group>"; };
@@ -292,7 +292,7 @@
 		0B7E5A016ACFD1A156DB1D4DA32131A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BF01F228D937A11F44AF0C77475CA7E /* UserInfoUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UserInfoUtil.h; path = MTKit/MTKit/Utils/UserInfoUtil/UserInfoUtil.h; sourceTree = "<group>"; };
 		0EDCC3A6430D9ED22923A899A88A7C4A /* UIScrollView+MTExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MTExt.h"; path = "MTKit/MTKit/Category/UIKit/UIScrollView/UIScrollView+MTExt.h"; sourceTree = "<group>"; };
-		10F56E362E463DDF328BC6D3A57F5BF4 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F56E362E463DDF328BC6D3A57F5BF4 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		115547EBC8198DD67249D516357FCE78 /* UIScrollView+MTExt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MTExt.m"; path = "MTKit/MTKit/Category/UIKit/UIScrollView/UIScrollView+MTExt.m"; sourceTree = "<group>"; };
 		123D7C89C8C7E0E53AC0FF418225A7A9 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		1255F9C8A260FBC0298BF15E8933D724 /* MT_ComponetHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MT_ComponetHeader.h; path = MTKit/MTKit/Component/MT_ComponetHeader.h; sourceTree = "<group>"; };
@@ -338,7 +338,7 @@
 		3FB52B2E8B06C7FC5EDDA80FC281B7F0 /* MTBannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTBannerView.m; path = MTKit/MTKit/Component/MTBanner/MTBannerView.m; sourceTree = "<group>"; };
 		4139DE471927A0AF552A10599C8B8CA5 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		41B59D1D3A2412438C00F4815B485E17 /* UIFont+MTExt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+MTExt.m"; path = "MTKit/MTKit/Category/UIKit/UIFont/UIFont+MTExt.m"; sourceTree = "<group>"; };
-		42DE991475AFD4E41D2B3AB40F76DD87 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DE991475AFD4E41D2B3AB40F76DD87 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYCache.framework; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		431DF76ADE4189A467C4807ECD673A83 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		439660E20E3E984FAE3CC9886E50FA57 /* UINavigationController+MTExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+MTExt.h"; path = "MTKit/MTKit/Category/UIKit/UINavigationController/UINavigationController+MTExt.h"; sourceTree = "<group>"; };
 		439E87BCC1CEB40362B8DD8B5CA09D39 /* UILabel+MTExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+MTExt.h"; path = "MTKit/MTKit/Category/UIKit/UILabel/UILabel+MTExt.h"; sourceTree = "<group>"; };
@@ -399,7 +399,7 @@
 		74C92F00B7786132DC8B020FDF99A3D9 /* MT_Define_Singleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MT_Define_Singleton.h; path = MTKit/MTKit/Macros/MT_Define_Singleton.h; sourceTree = "<group>"; };
 		754752FB05776A24F9B3436EDCFFA724 /* UIView+MTExtTouchArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MTExtTouchArea.m"; path = "MTKit/MTKit/Category/UIKit/UIView/UIView+MTExtTouchArea.m"; sourceTree = "<group>"; };
 		757DAA6DCACEEDD46B1698DA5A4E23CC /* MTFileAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTFileAction.h; path = MTKit/MTKit/Core/Action/Actions/MTFileAction.h; sourceTree = "<group>"; };
-		76ED677F7A30B9EBD7EA3F979ABA1748 /* MTKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76ED677F7A30B9EBD7EA3F979ABA1748 /* MTKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MTKit.framework; path = MTKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B33658E90568A636D9F033DA26030D /* UIImage+MTExtEffect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MTExtEffect.m"; path = "MTKit/MTKit/Category/UIKit/UIImage/UIImage+MTExtEffect.m"; sourceTree = "<group>"; };
 		78E21D886F8694050F5F045C5338529C /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		7AF78EEC45AB6EE6293993154379F487 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
@@ -415,7 +415,7 @@
 		8B3E667AA5A121892FEB1F1FA8CB823C /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		90FCF5B447FEB1ED0CE2214E90DFF23F /* NSDictionary+MTExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTExt.h"; path = "MTKit/MTKit/Category/Foundation/NSDictionary/NSDictionary+MTExt.h"; sourceTree = "<group>"; };
 		9335BE02731CB2CE93E1270CF667585A /* YYCGUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCGUtilities.m; path = MTKit/MTKit/Category/YYUtils/YYCGUtilities.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95D05E7BBBDD5D996DCD3D51978F6690 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		96B24C7A05E210ADEF03BB88BD0823C1 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		977AE6FF90045464DC147593A84D7EA7 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
@@ -438,8 +438,8 @@
 		B798018EE2CEE459173F3E067DD66081 /* MTQRCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTQRCode.m; path = MTKit/MTKit/Component/MTQRCode/MTQRCode.m; sourceTree = "<group>"; };
 		B946AFD2A4F6BF4D6FC7830311CC81B8 /* AppInfoUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppInfoUtil.h; path = MTKit/MTKit/Utils/AppInfoUtil/AppInfoUtil.h; sourceTree = "<group>"; };
 		B9C054450E09D60AB00CD1D1DACCC562 /* UIButton+MTExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+MTExt.h"; path = "MTKit/MTKit/Category/UIKit/UIButton/UIButton+MTExt.h"; sourceTree = "<group>"; };
-		B9EB4D0C3B02AB40EBE3FD32511BFFE5 /* Pods_GeneralProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeneralProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBCB53E73397EFD4C652D9DD1813085B /* Remark_Banner */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Remark_Banner; path = MTKit/MTKit/Component/MTBanner/Remark_Banner; sourceTree = "<group>"; };
+		B9EB4D0C3B02AB40EBE3FD32511BFFE5 /* Pods_GeneralProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeneralProject.framework; path = "Pods-GeneralProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCB53E73397EFD4C652D9DD1813085B /* Remark_Banner */ = {isa = PBXFileReference; includeInIndex = 1; name = Remark_Banner; path = MTKit/MTKit/Component/MTBanner/Remark_Banner; sourceTree = "<group>"; };
 		BD31C77221CB1B84FAB22FBD79E959DC /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		BD80D3DFD5C7E08AFDA713E2114B72AC /* Pods-GeneralProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeneralProject-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BFF9B9AB66C126D80BBE93A376779E6C /* UIView+MTExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MTExt.h"; path = "MTKit/MTKit/Category/UIKit/UIView/UIView+MTExt.h"; sourceTree = "<group>"; };
@@ -701,6 +701,7 @@
 				50B472F98125020FA1994DAC73542B14 /* Resources */,
 				6C99431C986A912FAABD662C0A24FC89 /* Support Files */,
 			);
+			name = SVProgressHUD;
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -769,9 +770,10 @@
 				2E817965CAA9B99817DCD3D754178E86 /* Component */,
 				1810E7E607B680D125FDDFE765358105 /* Core */,
 				18A2A6CBD5199038B85DB2E4F1A6CA56 /* Macros */,
-				83A008AE216EAED1421DFB211FAFFCA0 /* Utils */,
 				8454ABEFE5ABD61CDFD36AA57C66D2B1 /* Support Files */,
+				83A008AE216EAED1421DFB211FAFFCA0 /* Utils */,
 			);
+			name = MTKit;
 			path = MTKit;
 			sourceTree = "<group>";
 		};
@@ -1089,6 +1091,7 @@
 				ED5DD22026CFD31CF0B697AA79C38AA1 /* YYMemoryCache.m */,
 				F76A1AC8241210124F39E13ED6E0A20C /* Support Files */,
 			);
+			name = YYCache;
 			path = YYCache;
 			sourceTree = "<group>";
 		};
@@ -1160,6 +1163,7 @@
 				871AF6AE49E65DB03D287690141B8F01 /* Support Files */,
 				FC0B165A8DF1F10F2BBBFD8D232E8192 /* UIKit */,
 			);
+			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APIRetrunInfo</key>
+	<dict>
+		<key>APIReturnCode</key>
+		<string>errcode</string>
+		<key>APIReturnMsg</key>
+		<string>errmsg</string>
+		<key>APIReturnData</key>
+		<string>data</string>
+		<key>APIReturnCodeSuccess</key>
+		<string>200</string>
+	</dict>
+	<key>WithoutInternet</key>
+	<dict>
+		<key>VCName</key>
+		<string></string>
+		<key>SBName</key>
+		<string></string>
+		<key>isPush</key>
+		<false/>
+	</dict>
+	<key>CustomError</key>
+	<dict>
+		<key>VCName</key>
+		<string></string>
+		<key>SBName</key>
+		<string></string>
+		<key>isPush</key>
+		<false/>
+	</dict>
+</dict>
+</plist>
