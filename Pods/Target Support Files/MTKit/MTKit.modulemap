@@ -1,0 +1,6 @@
+framework module MTKit {
+  umbrella header "MTKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
