@@ -56,14 +56,15 @@
 
 #pragma mark - root controller
 - (void)layoutRootController {
-//    if (1) {
+    BOOL isLogin = YES;
+    if (isLogin) {
         VC_MainTabBar *vc_mainTab = [[VC_MainTabBar alloc] init];
         self.mainTab = vc_mainTab;
         self.window.rootViewController = vc_mainTab;
-//    } else {
-//        UINavigationController *nvc_login = [[TTMediator sharedInstance] performSBTarget:@"NVC_Login" parameter:nil sbName:SB_LoginRegist];
-//        self.window.rootViewController = nvc_login;
-//    }
+    } else {
+        UINavigationController *nvc_login = [[MTMediator sharedInstance] performSBTarget:@"NVC_Login" parameter:nil sbName:SB_LOGIN];
+        self.window.rootViewController = nvc_login;
+    }
 }
 
 

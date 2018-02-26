@@ -12,7 +12,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Hc4-OU-qeJ">
             <objects>
-                <navigationController navigationBarHidden="YES" id="vOE-Ki-nUk" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NVC_One" navigationBarHidden="YES" id="vOE-Ki-nUk" sceneMemberID="viewController">
                     <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Q2P-Wy-qzo">
                         <autoresizingMask key="autoresizingMask"/>
