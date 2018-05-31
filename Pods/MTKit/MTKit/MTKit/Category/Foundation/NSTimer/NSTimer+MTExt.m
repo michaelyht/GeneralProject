@@ -8,6 +8,11 @@
 
 #import "NSTimer+MTExt.h"
 
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wstrict-prototypes"
+
+
 @implementation NSTimer (MTExt)
 
 /**
@@ -23,7 +28,6 @@
                                   block:(void (^)())inBlock
                                 repeats:(BOOL)inRepeats {
     void (^block)() = [inBlock copy];
-    block = [inBlock copy];
     id ret = [self scheduledTimerWithTimeInterval:inTimeInterval
                                            target:self
                                          selector:@selector(mt_ExecuteSimpleBlock:)
@@ -51,6 +55,7 @@
                                  repeats:inRepeats];
     return ret;
 }
+
 
 /**
  *  暂停NSTimer
@@ -94,3 +99,5 @@
 }
 
 @end
+
+#pragma clang diagnostic pop
