@@ -154,7 +154,10 @@
                 hasAccess=YES;
             } else {
                 // Fallback on earlier versions
-            }        }
+            }
+            
+            
+        }
     } else {
         // Fallback on earlier versions
     }

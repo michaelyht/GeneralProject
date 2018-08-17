@@ -14,181 +14,192 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - MTKit (0.0.15):
-    - MTKit/Category (= 0.0.15)
-    - MTKit/Component (= 0.0.15)
-    - MTKit/Core (= 0.0.15)
-    - MTKit/Macros (= 0.0.15)
-    - MTKit/Utils (= 0.0.15)
-  - MTKit/Category (0.0.15):
-    - MTKit/Category/Foundation (= 0.0.15)
-    - MTKit/Category/Quartz (= 0.0.15)
-    - MTKit/Category/UIKit (= 0.0.15)
-    - MTKit/Category/YYUtils (= 0.0.15)
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - MTKit (0.1.0):
+    - MTKit/Category (= 0.1.0)
+    - MTKit/Component (= 0.1.0)
+    - MTKit/Core (= 0.1.0)
+    - MTKit/Macros (= 0.1.0)
+    - MTKit/Utils (= 0.1.0)
+  - MTKit/Category (0.1.0):
+    - MTKit/Category/Foundation (= 0.1.0)
+    - MTKit/Category/Quartz (= 0.1.0)
+    - MTKit/Category/UIKit (= 0.1.0)
+    - MTKit/Category/YYUtils (= 0.1.0)
     - YYCache (~> 1.0.4)
-  - MTKit/Category/Foundation (0.0.15):
-    - MTKit/Category/Foundation/NSData (= 0.0.15)
-    - MTKit/Category/Foundation/NSDate (= 0.0.15)
-    - MTKit/Category/Foundation/NSDictionary (= 0.0.15)
-    - MTKit/Category/Foundation/NSNumber (= 0.0.15)
-    - MTKit/Category/Foundation/NSObject (= 0.0.15)
-    - MTKit/Category/Foundation/NSString (= 0.0.15)
-    - MTKit/Category/Foundation/NSTimer (= 0.0.15)
-    - MTKit/Category/Foundation/NSUserDefaults (= 0.0.15)
+  - MTKit/Category/Foundation (0.1.0):
+    - MTKit/Category/Foundation/NSData (= 0.1.0)
+    - MTKit/Category/Foundation/NSDate (= 0.1.0)
+    - MTKit/Category/Foundation/NSDictionary (= 0.1.0)
+    - MTKit/Category/Foundation/NSNumber (= 0.1.0)
+    - MTKit/Category/Foundation/NSObject (= 0.1.0)
+    - MTKit/Category/Foundation/NSString (= 0.1.0)
+    - MTKit/Category/Foundation/NSTimer (= 0.1.0)
+    - MTKit/Category/Foundation/NSUserDefaults (= 0.1.0)
     - YYCache (~> 1.0.4)
-  - MTKit/Category/Foundation/NSData (0.0.15):
+  - MTKit/Category/Foundation/NSData (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/Foundation/NSDate (0.0.15):
+  - MTKit/Category/Foundation/NSDate (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/Foundation/NSDictionary (0.0.15):
+  - MTKit/Category/Foundation/NSDictionary (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/Foundation/NSNumber (0.0.15):
+  - MTKit/Category/Foundation/NSNumber (0.1.0):
     - MTKit/Category/Foundation/NSData
     - YYCache (~> 1.0.4)
-  - MTKit/Category/Foundation/NSObject (0.0.15):
+  - MTKit/Category/Foundation/NSObject (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/Foundation/NSString (0.0.15):
+  - MTKit/Category/Foundation/NSString (0.1.0):
     - MTKit/Category/Foundation/NSNumber
     - YYCache (~> 1.0.4)
-  - MTKit/Category/Foundation/NSTimer (0.0.15):
+  - MTKit/Category/Foundation/NSTimer (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/Foundation/NSUserDefaults (0.0.15):
+  - MTKit/Category/Foundation/NSUserDefaults (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/Quartz (0.0.15):
+  - MTKit/Category/Quartz (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit (0.0.15):
-    - MTKit/Category/UIKit/UIApplication (= 0.0.15)
-    - MTKit/Category/UIKit/UIBarButtonItem (= 0.0.15)
-    - MTKit/Category/UIKit/UIBezierPath (= 0.0.15)
-    - MTKit/Category/UIKit/UIButton (= 0.0.15)
-    - MTKit/Category/UIKit/UIColor (= 0.0.15)
-    - MTKit/Category/UIKit/UIControl (= 0.0.15)
-    - MTKit/Category/UIKit/UIDevice (= 0.0.15)
-    - MTKit/Category/UIKit/UIFont (= 0.0.15)
-    - MTKit/Category/UIKit/UIGesture (= 0.0.15)
-    - MTKit/Category/UIKit/UIImage (= 0.0.15)
-    - MTKit/Category/UIKit/UIImageView (= 0.0.15)
-    - MTKit/Category/UIKit/UILabel (= 0.0.15)
-    - MTKit/Category/UIKit/UINavigationBar (= 0.0.15)
-    - MTKit/Category/UIKit/UINavigationController (= 0.0.15)
-    - MTKit/Category/UIKit/UIScrollView (= 0.0.15)
-    - MTKit/Category/UIKit/UITableView (= 0.0.15)
-    - MTKit/Category/UIKit/UITextField (= 0.0.15)
-    - MTKit/Category/UIKit/UITextView (= 0.0.15)
-    - MTKit/Category/UIKit/UIView (= 0.0.15)
-    - MTKit/Category/UIKit/UIViewController (= 0.0.15)
+  - MTKit/Category/UIKit (0.1.0):
+    - MTKit/Category/UIKit/UIApplication (= 0.1.0)
+    - MTKit/Category/UIKit/UIBarButtonItem (= 0.1.0)
+    - MTKit/Category/UIKit/UIBezierPath (= 0.1.0)
+    - MTKit/Category/UIKit/UIButton (= 0.1.0)
+    - MTKit/Category/UIKit/UIColor (= 0.1.0)
+    - MTKit/Category/UIKit/UIControl (= 0.1.0)
+    - MTKit/Category/UIKit/UIDevice (= 0.1.0)
+    - MTKit/Category/UIKit/UIFont (= 0.1.0)
+    - MTKit/Category/UIKit/UIGesture (= 0.1.0)
+    - MTKit/Category/UIKit/UIImage (= 0.1.0)
+    - MTKit/Category/UIKit/UIImageView (= 0.1.0)
+    - MTKit/Category/UIKit/UILabel (= 0.1.0)
+    - MTKit/Category/UIKit/UINavigationBar (= 0.1.0)
+    - MTKit/Category/UIKit/UINavigationController (= 0.1.0)
+    - MTKit/Category/UIKit/UIScrollView (= 0.1.0)
+    - MTKit/Category/UIKit/UITableView (= 0.1.0)
+    - MTKit/Category/UIKit/UITextField (= 0.1.0)
+    - MTKit/Category/UIKit/UITextView (= 0.1.0)
+    - MTKit/Category/UIKit/UIView (= 0.1.0)
+    - MTKit/Category/UIKit/UIViewController (= 0.1.0)
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UIApplication (0.0.15):
+  - MTKit/Category/UIKit/UIApplication (0.1.0):
     - MTKit/Category/UIKit/UIDevice
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UIBarButtonItem (0.0.15):
+  - MTKit/Category/UIKit/UIBarButtonItem (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UIBezierPath (0.0.15):
+  - MTKit/Category/UIKit/UIBezierPath (0.1.0):
     - MTKit/Category/UIKit/UIFont
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UIButton (0.0.15):
+  - MTKit/Category/UIKit/UIButton (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UIColor (0.0.15):
+  - MTKit/Category/UIKit/UIColor (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UIControl (0.0.15):
+  - MTKit/Category/UIKit/UIControl (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UIDevice (0.0.15):
+  - MTKit/Category/UIKit/UIDevice (0.1.0):
     - MTKit/Category/Foundation/NSString
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UIFont (0.0.15):
+  - MTKit/Category/UIKit/UIFont (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UIGesture (0.0.15):
+  - MTKit/Category/UIKit/UIGesture (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UIImage (0.0.15):
+  - MTKit/Category/UIKit/UIImage (0.1.0):
     - MTKit/Category/YYUtils
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UIImageView (0.0.15):
+  - MTKit/Category/UIKit/UIImageView (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UILabel (0.0.15):
+  - MTKit/Category/UIKit/UILabel (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UINavigationBar (0.0.15):
+  - MTKit/Category/UIKit/UINavigationBar (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UINavigationController (0.0.15):
+  - MTKit/Category/UIKit/UINavigationController (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UIScrollView (0.0.15):
+  - MTKit/Category/UIKit/UIScrollView (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UITableView (0.0.15):
+  - MTKit/Category/UIKit/UITableView (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UITextField (0.0.15):
+  - MTKit/Category/UIKit/UITextField (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UITextView (0.0.15):
+  - MTKit/Category/UIKit/UITextView (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UIView (0.0.15):
+  - MTKit/Category/UIKit/UIView (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/UIKit/UIViewController (0.0.15):
+  - MTKit/Category/UIKit/UIViewController (0.1.0):
     - YYCache (~> 1.0.4)
-  - MTKit/Category/YYUtils (0.0.15):
+  - MTKit/Category/YYUtils (0.1.0):
     - MTKit/Category/UIKit/UIView
     - YYCache (~> 1.0.4)
-  - MTKit/Component (0.0.15):
-    - MTKit/Component/MTBanner (= 0.0.15)
-    - MTKit/Component/MTQRCode (= 0.0.15)
-  - MTKit/Component/MTBanner (0.0.15)
-  - MTKit/Component/MTQRCode (0.0.15)
-  - MTKit/Core (0.0.15):
+  - MTKit/Component (0.1.0):
+    - MTKit/Component/MTBanner (= 0.1.0)
+    - MTKit/Component/MTQRCode (= 0.1.0)
+  - MTKit/Component/MTBanner (0.1.0)
+  - MTKit/Component/MTQRCode (0.1.0)
+  - MTKit/Core (0.1.0):
     - AFNetworking (~> 3.2.1)
-    - MTKit/Core/Action (= 0.0.15)
-    - MTKit/Core/MTMediator (= 0.0.15)
-    - MTKit/Core/Service (= 0.0.15)
-  - MTKit/Core/Action (0.0.15):
+    - MTKit/Core/Action (= 0.1.0)
+    - MTKit/Core/MTMediator (= 0.1.0)
+    - MTKit/Core/Service (= 0.1.0)
+  - MTKit/Core/Action (0.1.0):
     - AFNetworking (~> 3.2.1)
-    - MTKit/Core/Action/Actions (= 0.0.15)
-    - MTKit/Core/Action/Constants (= 0.0.15)
-    - MTKit/Core/Action/Reachability (= 0.0.15)
-  - MTKit/Core/Action/Actions (0.0.15):
+    - MTKit/Core/Action/Actions (= 0.1.0)
+    - MTKit/Core/Action/Constants (= 0.1.0)
+    - MTKit/Core/Action/Reachability (= 0.1.0)
+  - MTKit/Core/Action/Actions (0.1.0):
     - AFNetworking (~> 3.2.1)
     - MTKit/Core/Action/Reachability
-  - MTKit/Core/Action/Constants (0.0.15):
+  - MTKit/Core/Action/Constants (0.1.0):
     - AFNetworking (~> 3.2.1)
-  - MTKit/Core/Action/Reachability (0.0.15):
+  - MTKit/Core/Action/Reachability (0.1.0):
     - AFNetworking (~> 3.2.1)
     - MTKit/Utils
-  - MTKit/Core/MTMediator (0.0.15):
+  - MTKit/Core/MTMediator (0.1.0):
     - AFNetworking (~> 3.2.1)
     - MTKit/Category/Foundation/NSString
-  - MTKit/Core/Service (0.0.15):
+  - MTKit/Core/Service (0.1.0):
     - AFNetworking (~> 3.2.1)
     - MTKit/Core/Action
-  - MTKit/Macros (0.0.15):
+  - MTKit/Macros (0.1.0):
     - MTKit/Category
-  - MTKit/Utils (0.0.15):
+  - MTKit/Utils (0.1.0):
     - MTKit/Macros
-    - MTKit/Utils/AppInfoUtil (= 0.0.15)
-    - MTKit/Utils/MTAlertUtil (= 0.0.15)
-    - MTKit/Utils/MTProgressHUD (= 0.0.15)
-    - MTKit/Utils/MTQRCodeUtil (= 0.0.15)
-    - MTKit/Utils/MTTableViewUtil (= 0.0.15)
-    - MTKit/Utils/UserInfoUtil (= 0.0.15)
-  - MTKit/Utils/AppInfoUtil (0.0.15):
+    - MTKit/Utils/AppInfoUtil (= 0.1.0)
+    - MTKit/Utils/MTAlertUtil (= 0.1.0)
+    - MTKit/Utils/MTLogUtil (= 0.1.0)
+    - MTKit/Utils/MTProgressHUD (= 0.1.0)
+    - MTKit/Utils/MTQRCodeUtil (= 0.1.0)
+    - MTKit/Utils/MTTableViewUtil (= 0.1.0)
+    - MTKit/Utils/UserInfoUtil (= 0.1.0)
+  - MTKit/Utils/AppInfoUtil (0.1.0):
     - AFNetworking (~> 3.2.1)
     - MTKit/Macros
-  - MTKit/Utils/MTAlertUtil (0.0.15):
+  - MTKit/Utils/MTAlertUtil (0.1.0):
     - MTKit/Category/Foundation/NSString
     - MTKit/Macros
-  - MTKit/Utils/MTProgressHUD (0.0.15):
+  - MTKit/Utils/MTLogUtil (0.1.0):
+    - CocoaLumberjack (~> 3.4.2)
+    - MTKit/Macros
+  - MTKit/Utils/MTProgressHUD (0.1.0):
     - MTKit/Macros
     - SVProgressHUD (~> 2.2.5)
-  - MTKit/Utils/MTQRCodeUtil (0.0.15):
+  - MTKit/Utils/MTQRCodeUtil (0.1.0):
     - MTKit/Macros
-  - MTKit/Utils/MTTableViewUtil (0.0.15):
+  - MTKit/Utils/MTTableViewUtil (0.1.0):
     - MTKit/Macros
-  - MTKit/Utils/UserInfoUtil (0.0.15):
+  - MTKit/Utils/UserInfoUtil (0.1.0):
     - MTKit/Core/Action/Constants
     - MTKit/Macros
   - SVProgressHUD (2.2.5)
   - YYCache (1.0.4)
 
 DEPENDENCIES:
-  - MTKit (~> 0.0.15)
+  - MTKit (~> 0.1.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - CocoaLumberjack
     - SVProgressHUD
     - YYCache
   "https://Lingday@bitbucket.org/Lingday/michaelspecs.git":
@@ -196,10 +207,11 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  MTKit: 7623ed7097a45af9ca718f2d4acdc808fa1b3e8c
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  MTKit: cde4d837eaf2143bcbf7095ec56e8507f7859b97
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 6b924f5d031fbbec64870ddd355d61d5aaf877da
+PODFILE CHECKSUM: c06f32414739c474ece6d2785668d60eb1a9b5fc
 
 COCOAPODS: 1.5.3

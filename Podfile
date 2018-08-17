@@ -3,7 +3,7 @@ source 'https://Lingday@bitbucket.org/Lingday/michaelspecs.git'  #私有仓库�
 
 platform:ios,'8.0'
 target 'GeneralProject' do
-  pod 'MTKit', '~> 0.0.15'
+  pod 'MTKit', '~> 0.1.0'
 #  pod 'IQKeyboardManager'
 #  pod 'MJRefresh', '~> 3.1.12'
 #  pod 'YYImage'

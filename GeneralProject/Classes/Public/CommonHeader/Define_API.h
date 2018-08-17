@@ -74,7 +74,7 @@ typedef enum ProjectMode{
 
 #if defined(BL_HTTPS_SERVER_DEBUG) //内网开发
 
-#define BL_HTTP_SERVER                         @"https://spv.gdwpro.com/server/process/"
+#define BL_HTTP_SERVER                       @"https://spv.gdwpro.com/server/process/"
 
 #elif defined(BL_HTTPS_SERVER_TEST_RELEASE) //外网测试
 

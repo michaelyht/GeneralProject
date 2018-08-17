@@ -410,8 +410,6 @@ static inline dispatch_queue_t YYMemoryCacheGetReleaseQueue() {
     [self setObject:object forKey:key withCost:0];
 }
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wimplicit-retain-self"
 - (void)setObject:(id)object forKey:(id)key withCost:(NSUInteger)cost {
     if (!key) return;
     if (!object) {
@@ -456,7 +454,6 @@ static inline dispatch_queue_t YYMemoryCacheGetReleaseQueue() {
     }
     pthread_mutex_unlock(&_lock);
 }
-#pragma clang diagnostic pop
 
 - (void)removeObjectForKey:(id)key {
     if (!key) return;

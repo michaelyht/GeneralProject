@@ -20,6 +20,8 @@
     self.window = [[UIWindow alloc] initWithFrame:ScreenFrame];
     self.window.backgroundColor = [UIColor whiteColor];
     
+    //日志打开
+    [MTLogUtil logOpen];
     //处理根控制器，是主页还是登陆
     [self layoutRootController];
     

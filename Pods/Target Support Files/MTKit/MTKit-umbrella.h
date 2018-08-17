@@ -76,6 +76,7 @@
 #import "MT_Utils_Header.h"
 #import "AppInfoUtil.h"
 #import "MTAlertUtil.h"
+#import "MTLogUtil.h"
 #import "MTProgressHUD.h"
 #import "MTQRCodeUtil.h"
 #import "MTDataSource.h"
