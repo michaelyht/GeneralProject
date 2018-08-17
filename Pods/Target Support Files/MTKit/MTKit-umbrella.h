@@ -22,7 +22,7 @@
 #import "NSDictionary+MTExtUrlParam.h"
 #import "NSNumber+MTExt.h"
 #import "NSObject+MTExt.h"
-#import "NSString+MTExt.h"
+#import "NSString+MtExt.h"
 #import "NSString+MTExtFrame.h"
 #import "NSString+MTExtHash.h"
 #import "NSString+MTExtVertify.h"
